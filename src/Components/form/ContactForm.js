@@ -8,7 +8,7 @@ const ContactForm = () => {
         <div className='container text-center '>
           <h2> Contact Me  </h2>
           <div className='row mb-3 justify-content-center'>
-            <div className="col-6 mt-3">
+            <div className="col-12 mt-3">
               <div className="card" >
                 <div className="card-header">
                   Email
@@ -19,14 +19,13 @@ const ContactForm = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-6 mt-3">
+            <div className="col-12 mt-3">
               <div className="card" >
                 <div className="card-header">
                   Phone:
                 </div>
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item list-group-item-action">Cell: (503) 983-3730</li>
-                  <li className="list-group-item list-group-item-action">Spouse Cell: (530) 806-5182</li>
                 </ul>
               </div>
             </div>
