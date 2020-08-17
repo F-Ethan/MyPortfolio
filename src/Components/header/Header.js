@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
       <nav className='navbar navbar-expand-lg navbar-light  shadow-lg  bg-white rounded '>
-        <img src={logo} alt='logo' width='100px' />
+        <div className="h3">My Portfolio</div>
         <div className='d-flex flex-grow-1 justify-content-end'>
           <button
             className='navbar-toggler'
@@ -29,7 +29,7 @@ class Header extends Component {
           <ul className='navbar-nav font'>
             <li className='nav-item font-weight-bold'>
               <Link className='nav-link text-reset' to='/'>
-                HOME<span className='sr-only'>(current)</span>
+                HOME
               </Link>
             </li>
             <li className='nav-item font-weight-bold'>
@@ -39,7 +39,7 @@ class Header extends Component {
             </li>
             <li className='nav-item font-weight-bold'>
               <Link className='nav-link text-reset ' to='/BlogList'>
-                BLOG
+                My Projects
               </Link>
             </li>
             <li className='nav-item font-weight-bold'>
@@ -56,23 +56,23 @@ class Header extends Component {
                 aria-haspopup='true'
                 aria-expanded='false'
               >
-                SEASONAL MENUS
+                Favorite Projects
               </button>
               <div
                 className='dropdown-menu'
                 aria-labelledby='dropdownMenuButton'
               >
                 <Link className='dropdown-item' to='/SpringMenu'>
-                  SPRING
+                  The Food Truck
                 </Link>
                 <Link className='dropdown-item' to='/SummerMenu'>
-                  SUMMER
+                  Pursuit Equipment
                 </Link>
                 <Link className='dropdown-item' to='/FallMenu'>
-                  FALL
+                  My Portfolio
                 </Link>
                 <Link className='dropdown-item' to='/WinterMenu'>
-                  WINTER
+                  This And That
                 </Link>
               </div>
             </div>

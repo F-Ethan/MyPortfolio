@@ -75,17 +75,12 @@ const Footer = () => {
               </li>
               <li>
                 <Link to='/BlogList' className='text-reset '>
-                  Blog
+                  My Projects
                 </Link>
               </li>
               <li>
                 <Link to='/ContactForm' className='text-reset '>
                   Contact
-                </Link>
-              </li>
-              <li>
-                <Link to='/Login' className='text-reset '>
-                  {token ? 'Sign Out' : 'Sign in'}
                 </Link>
               </li>
             </ul>

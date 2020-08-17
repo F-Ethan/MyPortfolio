@@ -10,20 +10,23 @@ const About = () => {
     <div className='About container shadow-lg p-3 mb-5 bg-white rounded'>
       <div className='card justify-content-center'>
         <div className='card'>
-          <h2 className='Mission text-center'> Our Mission </h2>
+          <h2 className='Mission text-center mt-3'> My Start in the world of Tech: </h2>
           <div className='card-body mb-2'>
-            Our hearts are to share and expand the Gospel of Jesus through our
-            Food Truck Businesses. Our goal is that all would know Jesus would
-            encounter the love of God through our food, and those that don't
-            know the Fathers love would encounter His love for them. Every meal
-            is made in excellence knowing we want our customers to taste the
-            goodness of God in every bite.
+            When I was in high school I saw a promational video with Mark Zuckerberg and a few other big names
+            in the tech world. The video talked about how thier was not eunogh software ingineers in the world.
+            ot went on to say that in the future programers would seem to have super powers but there was a lack of
+            talented people goining into the field. So to help they had started a free online aplication to help people
+            learn how to coe. It was CodeAcadamy.com. After watching that video I spent the next six months sepnding
+            any free time I could working on my JavaScript and PHP. after that I learnd anytime I could find the time.
+            However I always felt like I was just playing around with some code. It seemed imposible that someday I
+            would make a career out of this. But when I got a chance to go to Bethel Tech I jumped at the opertunity.
+            Now I am desiging and building full scale web aplications from the ground up.
           </div>
           <img
             className='rounded mx-auto d-block'
-            width='550'
+            // width='550'
             height='400'
-            src={Image3}
+            src={Ethan}
             alt='food truck'
           />
 
