@@ -83,6 +83,11 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link to='/Resume' className='text-reset '>
+                  Résumé
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

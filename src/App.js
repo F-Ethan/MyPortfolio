@@ -7,12 +7,7 @@ import About from './Components/about/About';
 import Footer from './Components/footer/Footer';
 import BlogPage from './Components/blog/BlogPage';
 import ContactForm from './Components/form/ContactForm';
-import CreateBlog from './Components/blogForms/CreateBlog';
-import EditBlog from './Components/blogForms/EditBlog';
-import SpringMenu from './Components/menu/SpringMenu';
-import SummerMenu from './Components/menu/SummerMenu';
-import FallMenu from './Components/menu/FallMenu';
-import WinterMenu from './Components/menu/WinterMenu';
+import Resume from './Components/Resume'
 
 import './App.css';
 
@@ -26,13 +21,8 @@ const App = () => {
           <Route exact path='/About' component={About} />
           <Route exact path='/BlogList/:index/:blogId' component={BlogPage} />
           <Route exact path='/GitHubRepos' component={GitHubRepos} />
-          <Route exact path='/CreateBlog' component={CreateBlog} />
-          <Route exact path='/EditBlog/:id' component={EditBlog} />
           <Route exact path='/ContactForm' component={ContactForm} />
-          <Route exact path='/SpringMenu' component={SpringMenu} />
-          <Route exact path='/SummerMenu' component={SummerMenu} />
-          <Route exact path='/FallMenu' component={FallMenu} />
-          <Route exact path='/WinterMenu' component={WinterMenu} />
+          <Route exact path='/Resume' component={Resume} />
         </Switch>
         <Footer />
       </Fragment>

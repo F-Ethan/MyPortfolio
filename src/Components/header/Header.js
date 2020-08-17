@@ -9,7 +9,7 @@ class Header extends Component {
     return (
       <nav className='navbar navbar-expand-lg navbar-light  shadow-lg  bg-white rounded '>
         <img src={Ethan} width="50px" className="rounded"></img>
-        <div className="h3 ml-3">My Portfolio</div>
+        <div className="h3 ml-3">MY PORTFOLIO</div>
         <div className='d-flex flex-grow-1 justify-content-end'>
           <button
             className='navbar-toggler'
@@ -41,7 +41,7 @@ class Header extends Component {
             </li>
             <li className='nav-item font-weight-bold'>
               <Link className='nav-link text-reset ' to='/GitHubRepos'>
-                My Projects
+                My PROJECTS
               </Link>
             </li>
             <li className='nav-item font-weight-bold'>
@@ -49,35 +49,11 @@ class Header extends Component {
                 CONTACT
               </Link>
             </li>
-            <div className='dropdown '>
-              <button
-                className='btn dropdown-toggle font-weight-bold font'
-                type='button'
-                id='dropdownMenuButton'
-                data-toggle='dropdown'
-                aria-haspopup='true'
-                aria-expanded='false'
-              >
-                Favorite Projects
-              </button>
-              <div
-                className='dropdown-menu'
-                aria-labelledby='dropdownMenuButton'
-              >
-                <Link className='dropdown-item' to='/SpringMenu'>
-                  The Food Truck
-                </Link>
-                <Link className='dropdown-item' to='/SummerMenu'>
-                  Pursuit Equipment
-                </Link>
-                <Link className='dropdown-item' to='/FallMenu'>
-                  My Portfolio
-                </Link>
-                <Link className='dropdown-item' to='/WinterMenu'>
-                  This And That
-                </Link>
-              </div>
-            </div>
+            <li className='nav-item font-weight-bold'>
+              <Link className='nav-link text-reset ' to='/Resume'>
+                RÉSUMÉ
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
