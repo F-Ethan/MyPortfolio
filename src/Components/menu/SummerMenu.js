@@ -1,9 +1,5 @@
 import React from 'react';
 import './menu.css';
-import burger from '../../pictures/classicburger.jpg';
-import friedChicken from '../../pictures/friedChxSand.jpg';
-import healthyBowl from '../../pictures/healthyBowl.jpg';
-import smoothie from '../../pictures/smoothie.jpg';
 
 const SummerMenu = () => {
   return (
@@ -23,28 +19,7 @@ const SummerMenu = () => {
         </ul>
       </div>
       <div className='menu-pictures'>
-        <ul className='img-list row'>
-          <li className='menu-item-img col'>
-            <img className='food-image -w' src={burger} alt='Classic Burger' />
-          </li>
-          <li className='menu-item-img col'>
-            <img
-              className='food-image -w'
-              src={friedChicken}
-              alt='Fried Chicken Sandwitch'
-            />
-          </li>
-          <li className='menu-item-img col'>
-            <img
-              className='food-image -w'
-              src={healthyBowl}
-              alt='Veggie Bowl'
-            />
-          </li>
-          <li className='menu-item-img col'>
-            <img className='food-image -w' src={smoothie} alt='Smoothie' />
-          </li>
-        </ul>
+
       </div>
     </div>
   );

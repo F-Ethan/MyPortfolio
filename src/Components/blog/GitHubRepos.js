@@ -1,0 +1,84 @@
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
+const GitHubRepos = () => {
+  const [GitHubReposData, setGitHubRepos] = useState({
+    GitHubRepos: [],
+  });
+
+  const { GitHubRepos } = GitHubReposData;
+
+  const fetchGitHubRepos = () => {
+    var encodedURI = "https://api.github.com/users/F-Ethan/repos";
+    return axios.get(encodedURI).then(response => {
+      console.log(response.data)
+      setGitHubRepos({
+
+        GitHubRepos: response.data,
+      });
+    });
+  };
+
+  useEffect(() => {
+    fetchGitHubRepos();
+  }, []);
+
+  return (
+    <div className='container mb-3'>
+      <div className='card text-center mt-3'>
+        <div className='card-header'>
+          <h5 className='card-title'>Blogs</h5>
+          <h6 className='card-subtitle mb-2 text-muted'>
+            Come and get to know us with some of our recent blogs
+          </h6>
+          <p className='card-subtitle mb-3'>
+            Meet the team or find our Seasonal Menu!
+          </p>
+        </div>
+
+        <div className='list-group list-group-flush shadow-lg p-3  bg-white rounded '>
+          {GitHubRepos.map((blog, index) => {
+            return (
+              <button
+                className='list-group-item list-group-item-action'
+                key={blog.id}
+              >
+                <div className='card-body '>
+                  <div className='container-fluid'>
+                    <div className='row'>
+                      <div className='col-12 mt-3'>
+                        <div className='card'>
+                          <div className='card-horizontal'>
+                            {/* <div className='img-square-wrapper col-3'>
+                              <img
+                                src={images[index]}
+                                className='d-block w-100'
+                                style={{ height: 200 }}
+                                alt='menue item'
+                              ></img>
+                            </div> */}
+                            <div className='card-body'>
+                              <h5 className='card-title'>{blog.name}</h5>
+                              <p className='card-text'>{blog.description}</p>
+                            </div>
+                          </div>
+                          <a
+                            href={blog.html_url}
+                            target='_blank'
+                            className='card-link stretched-link'
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default GitHubRepos;

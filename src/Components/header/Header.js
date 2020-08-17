@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import logo from '../../pictures/foodTruck2.png';
 
 class Header extends Component {
   render() {
@@ -38,7 +37,7 @@ class Header extends Component {
               </Link>
             </li>
             <li className='nav-item font-weight-bold'>
-              <Link className='nav-link text-reset ' to='/BlogList'>
+              <Link className='nav-link text-reset ' to='/GitHubRepos'>
                 My Projects
               </Link>
             </li>

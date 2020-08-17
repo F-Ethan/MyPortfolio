@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Header from './Components/header/Header';
 import HomePage from './Components/home/HomePage';
-import BlogList from './Components/blog/BlogList';
+import GitHubRepos from './Components/blog/GitHubRepos';
 import About from './Components/about/About';
 import Footer from './Components/footer/Footer';
 import BlogPage from './Components/blog/BlogPage';
@@ -25,7 +25,7 @@ const App = () => {
           <Route exact path='/' component={HomePage} />
           <Route exact path='/About' component={About} />
           <Route exact path='/BlogList/:index/:blogId' component={BlogPage} />
-          <Route exact path='/BlogList' component={BlogList} />
+          <Route exact path='/GitHubRepos' component={GitHubRepos} />
           <Route exact path='/CreateBlog' component={CreateBlog} />
           <Route exact path='/EditBlog/:id' component={EditBlog} />
           <Route exact path='/ContactForm' component={ContactForm} />
