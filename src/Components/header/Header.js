@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Ethan from '../../pictures/Ethan.png';
 import './Header.css';
+
 
 class Header extends Component {
   render() {
     return (
       <nav className='navbar navbar-expand-lg navbar-light  shadow-lg  bg-white rounded '>
-        <div className="h3">My Portfolio</div>
+        <img src={Ethan} width="50px" className="rounded"></img>
+        <div className="h3 ml-3">My Portfolio</div>
         <div className='d-flex flex-grow-1 justify-content-end'>
           <button
             className='navbar-toggler'

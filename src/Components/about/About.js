@@ -28,51 +28,67 @@ const About = () => {
             src={Ethan}
             alt='food truck'
           />
-
-          <div className='card-body text-center'>
-            <h2> My Ethics </h2>
-            <h4> Excellence </h4> Our food is farm to table and 100% organic.
-            <h4> Community </h4> We gather people to join together and feast.
-            <h4> Creativity & Growth </h4>
-            We are always looking for different ways to expand our menu from
-            glory to glory.
-          </div>
-          <div className='container text-center'>
+          <div className='container text-center '>
             <h2> Programing Languages and framworks  </h2>
-            <div className='row mb-3'>
-              <div className="col-6">
+            <div className='row mb-3 justify-content-center'>
+              <div className="col-6 mt-3">
                 <div className="card" >
                   <div className="card-header">
                     Python
                 </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item">Django</li>
-                    <li className="list-group-item">Flask</li>
+                    <li className="list-group-item list-group-item-action">Django</li>
+                    <li className="list-group-item list-group-item-action">Flask</li>
+                    <li className="list-group-item list-group-item-action">Beautiful Soup</li>
                   </ul>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-6 mt-3">
+                <div className="card" >
+                  <div className="card-header">
+                    Backend JavaScript
+                </div>
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item list-group-item-action">Express</li>
+                    <li className="list-group-item list-group-item-action">Node</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-6 mt-3">
+                <div className="card " >
+                  <div className="card-header">
+                    Frontend JavaScript
+                </div>
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item list-group-item-action">React</li>
+                    <li className="list-group-item list-group-item-action">Angular</li>
+                    <li className="list-group-item list-group-item-action">Ionic</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-6 mt-3">
+                <div className="card " >
+                  <div className="card-header">
+                    DataBase
+                </div>
+                  <ul className="list-group list-group-flush">
+                    <li className="list-group-item list-group-item-action">Sql</li>
+                    <li className="list-group-item list-group-item-action">NoSql</li>
+                    <li className="list-group-item list-group-item-action">MangoDB</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-6 mt-3">
                 <div className="card " >
                   <div className="card-header">
                     Other
                 </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item">Html</li>
-                    <li className="list-group-item">Css</li>
-                    <li className="list-group-item">Sass</li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-6">
-                <div className="card " >
-                  <div className="card-header">
-                    JavaScript
-                </div>
-                  <ul className="list-group list-group-flush">
-                    <li className="list-group-item">React</li>
-                    <li className="list-group-item">Angular</li>
-                    <li className="list-group-item">Node</li>
-                    <li className="list-group-item">Express</li>
+                    <li className="list-group-item list-group-item-action">Html</li>
+                    <li className="list-group-item list-group-item-action">Css</li>
+                    <li className="list-group-item list-group-item-action">Sass</li>
+                    <li className="list-group-item list-group-item-action">Bootstrap</li>
                   </ul>
                 </div>
               </div>
@@ -94,7 +110,7 @@ const About = () => {
                   className='mx-auto d-block'
                 />
                 <div className='caption'>
-                  <p className='text-center'> Ethan1 </p>
+                  <p className='text-center'>  </p>
                 </div>
               </div>
             </div>
@@ -108,7 +124,7 @@ const About = () => {
                   className='mx-auto d-block'
                 />
                 <div className='caption'>
-                  <p className='text-center'>Ethan2</p>
+                  <p className='text-center'></p>
                 </div>
               </div>
             </div>
@@ -124,7 +140,7 @@ const About = () => {
                   className='mx-auto d-block'
                 />
                 <div className='caption'>
-                  <p className='text-center'>Ethan </p>
+                  <p className='text-center'> </p>
                 </div>
               </div>
             </div>
@@ -138,7 +154,7 @@ const About = () => {
                   className='mx-auto d-block'
                 />
                 <div className='caption'>
-                  <p className='text-center'>Ethan3</p>
+                  <p className='text-center'></p>
                 </div>
               </div>
             </div>

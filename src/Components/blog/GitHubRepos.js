@@ -27,13 +27,13 @@ const GitHubRepos = () => {
     <div className='container mb-3'>
       <div className='card text-center mt-3'>
         <div className='card-header'>
-          <h5 className='card-title'>Blogs</h5>
-          <h6 className='card-subtitle mb-2 text-muted'>
-            Come and get to know us with some of our recent blogs
+          <h5 className='card-title'>My Projects</h5>
+          <h6 className='card-subtitle mb-2 '>
+            This is a list of all my curent Repositories on GitHub,
           </h6>
-          <p className='card-subtitle mb-3'>
-            Meet the team or find our Seasonal Menu!
-          </p>
+          <h6 className='card-subtitle mb-3'>
+            Of cousres this is not a complete list of what I have done, but it is a good repersentation of what I know how to do.
+          </h6>
         </div>
 
         <div className='list-group list-group-flush shadow-lg p-3  bg-white rounded '>
