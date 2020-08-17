@@ -21,10 +21,10 @@ export class Card extends Component {
                     <div className='card'>
                       <div className='card-horizontal'>
                         {!side ? (
-                          <div className='img-square-wrapper'>
+                          <div className='img-square-wrapper col-12 col-lg-3'>
                             <img
                               src={card.img}
-                              className='d-block w-100'
+                              className='card-img-top '
                               alt='list item'
                             ></img>
                           </div>
@@ -34,10 +34,10 @@ export class Card extends Component {
                           <p className='card-text'>{card.about}</p>
                         </div>
                         {side ? (
-                          <div className='img-square-wrapper'>
+                          <div className='img-square-wrapper col-12 col-lg-3'>
                             <img
                               src={card.img}
-                              className='d-block w-100'
+                              className='card-img-top '
                               alt='list item'
                             ></img>
                           </div>

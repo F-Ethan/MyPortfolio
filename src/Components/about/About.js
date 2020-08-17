@@ -89,6 +89,7 @@ const About = () => {
                     <li className="list-group-item list-group-item-action">Css</li>
                     <li className="list-group-item list-group-item-action">Sass</li>
                     <li className="list-group-item list-group-item-action">Bootstrap</li>
+                    <li className="list-group-item list-group-item-action">Amazon Web Services</li>
                   </ul>
                 </div>
               </div>
