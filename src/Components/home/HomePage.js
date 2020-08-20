@@ -18,16 +18,16 @@ const FeaturedCards = [
     title: 'Full stack Developer',
     img: Image1,
     about:
-      "As a Full Stack web devolper I am always looking for ways to improve my abilities. From going to School at Bethel Tech, \
-    to watching tutorials on YouTube. Every year My abilties grow and my abition grows right along with it.",
+      "As a Full Stack web developer I am always looking for ways to improve my abilities. From going to School at Bethel Tech, \
+    to watch tutorials on YouTube. Every year My abilities grow and my ambition grows right along with it.",
     blogId: '1',
   },
   {
     title: 'student',
     img: bethelTech,
     about:
-      "As a student at Bethel Tech, I am learning how to bring a Project from the disgn phase all the way through developmet \
-      and into prodution. I am learing about AWS, NodeJS, Angular, React, Express and much much more. ",
+      "As a student at Bethel Tech, I am learning how to bring a Project from the design phase all the way through development \
+      and into production. I am learning about AWS, NodeJS, Angular, React, Express and much much more. ",
     blogId: '2',
   },
 ];
@@ -38,29 +38,29 @@ const Cards = [
     img: python,
     about:
       "In January 2019, I took 'Harvard's CS50 Web Programing with Python & Javascript' Online. \
-      The Class took us through the basics of progaming. It started in C and then worked it's way into \
-      JavaScript. After JavaScrip we Learnd the basics of Python. Then We went into how to use a simple \
-      framwork like Flask and for the Final in the class we had to build a paper trading Stock market App. \
-      After finnishing the class I taught myself how to use Django and Beautiful Soup.",
+      The Class took us through the basics of programming. It started in C and then worked its way into \
+      JavaScript. After JavaScrip we Learned the basics of Python. Then We went into how to use a simple \
+      framework like Flask and for the Final in the class we had to build a paper trading Stock market App. \
+      After finishing the class I taught myself how to use Django and Beautiful Soup.",
     blogId: '3',
   },
   {
     title: 'Django',
     img: django,
     about:
-      "Django is my favorit Framwork in Python. Djanog is a powerfull server side Farmawork that hads all requests.\
-      I got into Django becuase of how powerful of a framwork it was. It takes longer to set up than Flask but it makes \
-      handeling authentication and complexe requests almost too easy.",
+      "Django is my favorite Framework in Python. Django is a powerful server side Framework that handles all requests.\
+      I got into Django because of how powerful of a framework it was. It takes longer to set up than Flask but it makes \
+      handling authentication and complexe requests almost too easy.",
     blogId: '4',
   },
   {
     title: 'Javascript',
     img: javascript,
     about:
-      "JavaScript is the first Programing Langwage I learnd when I was still in high school. \
-      I loved how simple the languge was to learn and how powerfull of a language it is. After Learning the \
-      Basics of JavaScript I found that I loved to programe, However I could not figure out how to make my \
-      aplications look even remotly nice. So I got discurage. What I did not know is that I needed to learn a lot\
+      "JavaScript is the first Programing Language I learned when I was still in high school. \
+      I loved how simple the language was to learn and how powerful of a language it is. After Learning the \
+      Basics of JavaScript I found that I loved to program, However I could not figure out how to make my \
+      applications look even remotely nice. So I got discouraged. What I did not know is that I needed to learn a lot\
       more.",
     blogId: '5',
   },
@@ -70,24 +70,26 @@ const Cards = [
     about:
       "It was not until I was a student at Bethel Tech that I even heard of React or Angular. At the time I had already \
       Learned Python and Django but even after learning these I still could not get my front end to look the way I wanted \
-      it to. However as I started to learn about react I relived that one of my problems was that what I was comparing my work to\
-      was using advace Javascript languages to controle the state of thier code. I was trying to make my projects look and act like\
-      web aplications without knowing that they were using whole framworks I had neaver heard of. Now as I build complexe\
-      apliactions using React and Angualr I am quite prode of what I can do.",
+      it too. However as I started to learn about react I relived that one of my problems was that what I was comparing my work to\
+      was using advanced Javascript languages to control the state of their code. I was trying to make my projects look and act like\
+      web applications without knowing that they were using whole frameworks I had never heard of. Now as I build complexe\
+      applications using React and Angular I am quite proud of what I can do.",
     blogId: '6',
   },
   {
     title: 'Angular',
     img: angular,
     about:
-      "Angular is one of the last Frameworks I learnd in School. Buy the time we got to Anguale I was Already building complexe Aplications \
-      with both front and back ends that would dynamicly load and update when anything change. However the more I learned about Angular the more\
-      I came to love the Framework. To me Angular seem fairly simular to Django, It has a very clean layout that makes it easy to organize you code. \
-      It also come with so much funcanality right form the start, making it easy to Authenticat your users and and handel the routing within \
-      your aplications",
+      "Angular is one of the last Frameworks I learned in School. By the time we got to Angular I was Already building complex Applications \
+      with both front and back ends that would dynamically load and update when anything changes. However the more I learned about Angular the more\
+      I came to love the Framework. To me Angular seems fairly similar to Django, It has a very clean layout that makes it easy to organize your code. \
+      It also come with so much functionality right from the start, making it easy to Authenticate your users and and handel the routing within \
+      your applications",
     blogId: '7',
   },
 ];
+
+
 
 export class HomePage extends Component {
   render() {
