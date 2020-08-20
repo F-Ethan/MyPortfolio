@@ -31,7 +31,7 @@ const About = () => {
           <div className='container text-center '>
             <h2> Programing Languages and framworks  </h2>
             <div className='row mb-3 justify-content-center'>
-              <div className="col-6 mt-3">
+              <div className="col-12 col-md-6 mt-3">
                 <div className="card" >
                   <div className="card-header">
                     Python
@@ -43,7 +43,7 @@ const About = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-6 mt-3">
+              <div className="col-12 col-md-6 mt-3">
                 <div className="card" >
                   <div className="card-header">
                     Backend JavaScript
@@ -55,7 +55,7 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="col-6 mt-3">
+              <div className="col-12 col-md-6 mt-3">
                 <div className="card " >
                   <div className="card-header">
                     Frontend JavaScript
@@ -67,7 +67,7 @@ const About = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-6 mt-3">
+              <div className="col-12 col-md-6 mt-3">
                 <div className="card " >
                   <div className="card-header">
                     DataBase
@@ -79,7 +79,7 @@ const About = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-6 mt-3">
+              <div className="col-12 col-md-6 mt-3">
                 <div className="card " >
                   <div className="card-header">
                     Other
