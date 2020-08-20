@@ -28,7 +28,7 @@ const About = () => {
             alt='food truck'
           />
           <div className='container text-center '>
-            <h2> Programing Languages and framworks  </h2>
+            <h2> Programing Languages and Frameworks  </h2>
             <div className='row mb-3 justify-content-center'>
               <div className="col-12 col-md-6 mt-3">
                 <div className="card" >
