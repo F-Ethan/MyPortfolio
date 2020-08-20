@@ -11,15 +11,14 @@ const About = () => {
         <div className='card'>
           <h2 className='Mission text-center mt-3'> My Start in the world of Tech: </h2>
           <div className='card-body mb-2'>
-            When I was in high school I saw a promational video with Mark Zuckerberg and a few other big names
-            in the tech world. The video talked about how thier was not eunogh software ingineers in the world.
-            ot went on to say that in the future programers would seem to have super powers but there was a lack of
-            talented people goining into the field. So to help they had started a free online aplication to help people
-            learn how to coe. It was CodeAcadamy.com. After watching that video I spent the next six months sepnding
-            any free time I could working on my JavaScript and PHP. after that I learnd anytime I could find the time.
-            However I always felt like I was just playing around with some code. It seemed imposible that someday I
-            would make a career out of this. But when I got a chance to go to Bethel Tech I jumped at the opertunity.
-            Now I am desiging and building full scale web aplications from the ground up.
+            When I was in high school I saw a promotional video with Mark Zuckerberg and a few other big names in the tech world.
+            The video talked about how there were not enough software engineers in the world. ot went on to say that in the future
+            programmers would seem to have super powers but there was a lack of talented people going into the field. So to help
+            they had started a free online application to help people learn how to coe. It was CodeAcadamy.com. After watching
+            that video I spent the next six months spending any free time I could working on my JavaScript and PHP. After that I
+            learned anytime I could find the time. However I always felt like I was just playing around with some code.
+            It seemed impossible that someday I would make a career out of this. But when I got a chance to go to Bethel Tech I
+            jumped at the opportunity. Now I am designing and building full scale web applications from the ground up.
           </div>
           <img
             className='rounded mx-auto d-block'
