@@ -6,7 +6,7 @@ import Ethan3 from '../../pictures/Ethan3.jpg';
 
 const About = () => {
   return (
-    <div className='About container shadow-lg mt-3 p-3 mb-5 bg-white rounded'>
+    <div className='About container shadow-lg mt-3 p-3 mb-5 bg-primary rounded'>
       <div className='card justify-content-center'>
         <div className='card'>
           <h2 className='Mission text-center mt-3'> My Start in the world of Tech: </h2>
