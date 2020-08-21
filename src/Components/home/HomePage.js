@@ -97,7 +97,7 @@ export class HomePage extends Component {
       <div className='container'>
         <div
           id='carouselExampleIndicators'
-          className='carousel slide carousel-fade shadow-lg p-3 mb-5 bg-primary rounded card mt-3'
+          className='carousel slide carousel-fade shadow-lg p-3 mb-5 bg-info rounded card mt-3'
           data-ride='carousel'
         >
           <ol className='carousel-indicators'>

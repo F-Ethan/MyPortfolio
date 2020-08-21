@@ -3,29 +3,29 @@ import React from 'react';
 const ContactForm = () => {
 
   return (
-    <div className='About container shadow-lg p-3 mb-5 mt-3 bg-primary rounded col-10 col-md-7'>
+    <div className='About container shadow-lg p-3 mb-5 mt-3 bg-info rounded col-10 col-md-7'>
       <div className='card justify-content-center'>
         <div className='container text-center '>
           <h2> Contact Me  </h2>
           <div className='row mb-3 justify-content-center'>
             <div className="col-12 mt-3">
               <div className="card" >
-                <div className="card-header">
+                <div className="card-header bg-success">
                   Email
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item list-group-item-action">Fethanerrier@gmail.com</li>
-                  <li className="list-group-item list-group-item-action">Fethanerrier@aol.com</li>
+                  <li className="list-group-item bg-warning list-group-item-action">Fethanerrier@gmail.com</li>
+                  <li className="list-group-item bg-warning list-group-item-action">Fethanerrier@aol.com</li>
                 </ul>
               </div>
             </div>
             <div className="col-12 mt-3">
               <div className="card" >
-                <div className="card-header">
+                <div className="card-header bg-success">
                   Phone:
                 </div>
                 <ul className="list-group list-group-flush">
-                  <li className="list-group-item list-group-item-action">Cell: (503) 983-3730</li>
+                  <li className="list-group-item bg-warning list-group-item-action">Cell: (503) 983-3730</li>
                 </ul>
               </div>
             </div>

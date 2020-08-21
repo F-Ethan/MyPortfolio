@@ -7,8 +7,8 @@ export class Card extends Component {
     //you also need to pass into props the Title
     let Cards = this.props.Cards;
     return (
-      <div className='card text-center m-3 shadow p-3 mb-5 bg-primary rounded'>
-        <div className='card-header'>{this.props.Title}</div>
+      <div className='card text-center m-3 shadow p-3 mb-5 bg-info rounded'>
+        <div className='card-header bg-success'>{this.props.Title}</div>
         {/* Loops through the Card Prop */}
         {Cards.map((card, index) => {
           //if index is odd puts piture second if even puts it last
