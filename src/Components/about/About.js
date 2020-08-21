@@ -6,7 +6,7 @@ import Ethan3 from '../../pictures/Ethan3.jpg';
 
 const About = () => {
   return (
-    <div className='About container shadow-lg p-3 mb-5 bg-white rounded'>
+    <div className='About container shadow-lg mt-3 p-3 mb-5 bg-white rounded'>
       <div className='card justify-content-center'>
         <div className='card'>
           <h2 className='Mission text-center mt-3'> My Start in the world of Tech: </h2>
@@ -36,9 +36,9 @@ const About = () => {
                     Python
                 </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item list-group-item-action">Django</li>
-                    <li className="list-group-item list-group-item-action">Flask</li>
-                    <li className="list-group-item list-group-item-action">Beautiful Soup</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Django</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Flask</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Beautiful Soup</li>
                   </ul>
                 </div>
               </div>
@@ -48,8 +48,8 @@ const About = () => {
                     Backend JavaScript
                 </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item list-group-item-action">Express</li>
-                    <li className="list-group-item list-group-item-action">Node</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Express</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Node</li>
                   </ul>
                 </div>
               </div>
@@ -60,9 +60,9 @@ const About = () => {
                     Frontend JavaScript
                 </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item list-group-item-action">React</li>
-                    <li className="list-group-item list-group-item-action">Angular</li>
-                    <li className="list-group-item list-group-item-action">Ionic</li>
+                    <li className="list-group-item bg-primary list-group-item-action">React</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Angular</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Ionic</li>
                   </ul>
                 </div>
               </div>
@@ -72,9 +72,9 @@ const About = () => {
                     DataBase
                 </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item list-group-item-action">Sql</li>
-                    <li className="list-group-item list-group-item-action">NoSql</li>
-                    <li className="list-group-item list-group-item-action">MangoDB</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Sql</li>
+                    <li className="list-group-item bg-primary list-group-item-action">NoSql</li>
+                    <li className="list-group-item bg-primary list-group-item-action">MangoDB</li>
                   </ul>
                 </div>
               </div>
@@ -84,11 +84,11 @@ const About = () => {
                     Other
                 </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item list-group-item-action">Html</li>
-                    <li className="list-group-item list-group-item-action">Css</li>
-                    <li className="list-group-item list-group-item-action">Sass</li>
-                    <li className="list-group-item list-group-item-action">Bootstrap</li>
-                    <li className="list-group-item list-group-item-action">Amazon Web Services</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Html</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Css</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Sass</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Bootstrap</li>
+                    <li className="list-group-item bg-primary list-group-item-action">Amazon Web Services</li>
                   </ul>
                 </div>
               </div>

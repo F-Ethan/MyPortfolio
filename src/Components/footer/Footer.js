@@ -15,7 +15,7 @@ const Footer = () => {
     : false;
 
   return (
-    <footer className='footer navbar-fixed-bottom'>
+    <footer className='footer navbar-fixed-bottomm bg-primary p-3'>
       <div className='container'>
         <div className='row'>
           {/* column 1 */}

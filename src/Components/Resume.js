@@ -11,7 +11,7 @@ const Resume = () => {
         setStyle(style = !style)
     }
     return (
-        <div className='About container shadow-lg p-3 mb-5 mt-3 bg-white rounded col-12 col-md-10'>
+        <div className='About container shadow-lg p-3 mb-5 mt-3 bg-primary rounded col-12 col-md-10'>
             <ul className="nav nav-tabs nav-fill">
                 <li className="nav-item">Choose a Resume Formate</li >
                 <li className="nav-item">
@@ -37,7 +37,7 @@ const Resume = () => {
                     :
                     <div className="col-12">
                         <div className='card justify-content-center'>
-                            <embed src={doc2} type="application/pdf" width="100%" height="600px" />
+                            <embed src={doc2} type="application/pdf" width="100%" height="800px" />
                         </div>
                     </div>
                 }

@@ -7,7 +7,7 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <nav className='navbar navbar-expand-lg navbar-light  shadow-lg  bg-white rounded '>
+      <nav className='navbar navbar-expand-lg shadow-lg  navbar-dark bg-primary rounded '>
         <img src={Ethan} width="50px" className="rounded"></img>
         <div className="h3 ml-3">MY PORTFOLIO</div>
         <div className='d-flex flex-grow-1 justify-content-end'>
