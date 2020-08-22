@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import project from '../../pictures/project.jpg';
 
 const GitHubRepos = () => {
   const [GitHubReposData, setGitHubRepos] = useState({
@@ -25,6 +26,13 @@ const GitHubRepos = () => {
 
   return (
     <div className='container mb-3'>
+      <img class="d-block w-100" src={project} alt="First slide"></img>
+      {/* <div className="centered1">
+        <div class="h2"> My Projects</div>
+        <div className="h5 line-height">
+          Here are all the projects I have on my Github account.
+          </div>
+      </div> */}
       <div className='card text-center mt-3'>
         <div className='card-header'>
           <h5 className='card-title'>My Projects</h5>

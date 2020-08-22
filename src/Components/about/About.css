@@ -2,6 +2,17 @@
     justify-content: center;
 }
 
-li{
+li {
     list-style-type: none;
+}
+
+.centered1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line-height {
+    line-height: 30px;
 }

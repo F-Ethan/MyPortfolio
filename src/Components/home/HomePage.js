@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Image1 from '../../pictures/Ethan.png';
-import homepage1 from '../../pictures/homepage1.jpg'
 import homepage2 from '../../pictures/homepage2.jpg'
 // import Image2 from '../../pictures/Ethan1.jpg';
 // import Image3 from '../../pictures/Ethan2.jpg';
@@ -105,7 +104,7 @@ export class HomePage extends Component {
           <div className="h4 line-height">
             Welcome to my portfolio website. I am so glad you have taken the time and
             intrest to come here and learn more about me.
-        </div>
+          </div>
         </div>
 
         {/* <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
