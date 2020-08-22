@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import Image1 from '../../pictures/Ethan.png';
-import Image2 from '../../pictures/Ethan1.jpg';
-import Image3 from '../../pictures/Ethan2.jpg';
-import Image4 from '../../pictures/Ethan3.jpg';
-import Image5 from '../../pictures/Ethan4.jpg';
+import homepage1 from '../../pictures/homepage1.jpg'
+import homepage2 from '../../pictures/homepage2.jpg'
+// import Image2 from '../../pictures/Ethan1.jpg';
+// import Image3 from '../../pictures/Ethan2.jpg';
+// import Image4 from '../../pictures/Ethan3.jpg';
+// import Image5 from '../../pictures/Ethan4.jpg';
 import ReactPhoto from '../../pictures/React3.jpg'
 import python from '../../pictures/python.jpg'
 import django from '../../pictures/django.jpg'
@@ -11,6 +13,7 @@ import angular from '../../pictures/angular.png'
 import javascript from '../../pictures/javascript.png'
 import bethelTech from '../../pictures/bethelTech.png'
 import Card from '../Card';
+import './Home.css';
 
 
 const FeaturedCards = [
@@ -95,85 +98,34 @@ export class HomePage extends Component {
   render() {
     return (
       <div className='container'>
-        <div
-          id='carouselExampleIndicators'
-          className='carousel slide carousel-fade shadow-lg p-3 mb-5  rounded card mt-3'
-          data-ride='carousel'
-        >
-          <ol className='carousel-indicators'>
-            <li
-              data-target='#carouselExampleIndicators'
-              data-slide-to='0'
-              className='active'
-            ></li>
-            <li data-target='#carouselExampleIndicators' data-slide-to='1'></li>
-            <li data-target='#carouselExampleIndicators' data-slide-to='2'></li>
-            <li data-target='#carouselExampleIndicators' data-slide-to='3'></li>
-            <li data-target='#carouselExampleIndicators' data-slide-to='4'></li>
 
+        <img class="d-block w-100" src={homepage2} alt="First slide"></img>
+        <div className="centered text-center">
+          <div class="h2">Ethan Ferrier</div>
+          <div className="h4 line-height">
+            Welcome to my portfolio website. I am so glad you have taken the time and
+            intrest to come here and learn more about me.
+        </div>
+        </div>
+
+        {/* <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
           </ol>
-          <div className='carousel-inner'>
-            <div className='carousel-item active ' data-interval='10000'>
-              <img
-                src={Image1}
-                className='d-block w-100'
-                alt='carosel item one'
-              ></img>
-            </div>
-            <div className='carousel-item' data-interval='10000'>
-              <img
-                src={Image2}
-                className='d-block w-100'
-                alt='carosel item Two'
-              ></img>
-            </div>
-            <div className='carousel-item' data-interval='10000'>
-              <img
-                src={Image3}
-                className='d-block w-100'
-                alt='carosel item Three'
-              ></img>
-            </div>
-            <div className='carousel-item' data-interval='10000'>
-              <img
-                src={Image4}
-                className='d-block w-100'
-                alt='carosel item Four'
-              ></img>
-            </div>
-            <div className='carousel-item' data-interval='10000'>
-              <img
-                src={Image5}
-                className='d-block w-100'
-                alt='carosel item five'
-              ></img>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src={homepage2} alt="First slide"></img>
+              <div class="carousel-caption d-none d-md-block mb-3 position-center">
+                <div className="h3">Ethan Ferrier</div>
+                <div className="h5">
+                  Welcome to my portfolio website. I am so glad you have taken then time and 
+                  intrest to come here and learn more about me. 
+                
+                </div>
+              </div>
             </div>
           </div>
-          <a
-            className='carousel-control-prev'
-            href='#carouselExampleIndicators'
-            role='button'
-            data-slide='prev'
-          >
-            <span
-              className='carousel-control-prev-icon'
-              aria-hidden='true'
-            ></span>
-            <span className='sr-only'>Previous</span>
-          </a>
-          <a
-            className='carousel-control-next'
-            href='#carouselExampleIndicators'
-            role='button'
-            data-slide='next'
-          >
-            <span
-              className='carousel-control-next-icon'
-              aria-hidden='true'
-            ></span>
-            <span className='sr-only'>Next</span>
-          </a>
-        </div>
+        </div> */}
+
         <Card Cards={FeaturedCards} Title='Featured' />
         <Card Cards={Cards} Title='More' />
       </div>
