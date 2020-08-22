@@ -36,7 +36,7 @@ const GitHubRepos = () => {
           </h6>
         </div>
 
-        <div className='list-group list-group-flush shadow-lg p-3  bg-primary rounded '>
+        <div className='list-group list-group-flush shadow-lg p-3  rounded '>
           {GitHubRepos.map((blog, index) => {
             return (
               <button
@@ -57,7 +57,7 @@ const GitHubRepos = () => {
                                 alt='menue item'
                               ></img>
                             </div> */}
-                            <div className='card-body bg-primary rounded'>
+                            <div className='card-body rounded'>
                               <h5 className='card-title'>{blog.name}</h5>
                               <p className='card-text'>{blog.description}</p>
                             </div>
