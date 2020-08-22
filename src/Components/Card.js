@@ -7,7 +7,7 @@ export class Card extends Component {
     //you also need to pass into props the Title
     let Cards = this.props.Cards;
     return (
-      <div className='card text-center m-3 shadow p-3 mb-5 bg-primary rounded'>
+      <div className='card text-center m-3 shadow p-3 mb-5 rounded'>
         <div className='card-header'>{this.props.Title}</div>
         {/* Loops through the Card Prop */}
         {Cards.map((card, index) => {
@@ -18,7 +18,7 @@ export class Card extends Component {
               <div className='container-fluid'>
                 <div className='row'>
                   <div className='col-12 mt-3'>
-                    <div className='card'>
+                    <div className='card border-0'>
                       <div className='card-horizontal'>
                         {!side ? (
                           <div className='img-square-wrapper col-12 col-lg-3'>
