@@ -11,9 +11,9 @@ const Resume = () => {
         setStyle(style = !style)
     }
     return (
-        <div className='About container shadow-lg p-3 mb-5 mt-3 bg-info rounded col-12 col-md-10'>
+        <div className='About container shadow-lg p-3 mb-5 mt-3 rounded col-12 col-md-10'>
             <ul className="nav nav-tabs nav-fill">
-                <li className="nav-item">Choose a Resume Formate</li >
+                <li className="nav-item">Choose a resume formate</li >
                 <li className="nav-item">
                     {style ?
                         <a onClick={Change} className="nav-link">Styled</a> :

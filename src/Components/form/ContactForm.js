@@ -3,7 +3,7 @@ import React from 'react';
 const ContactForm = () => {
 
   return (
-    <div className='About container shadow-lg p-3 mb-5 mt-3 bg-info rounded col-10 col-md-7'>
+    <div className='About container shadow-lg p-3 mb-5 mt-3 rounded col-10 col-md-7'>
       <div className='card justify-content-center'>
         <div className='container text-center '>
           <h2> Contact Me  </h2>

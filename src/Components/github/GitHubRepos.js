@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import project from '../../pictures/project.jpg';
 
 const GitHubRepos = () => {
   const [GitHubReposData, setGitHubRepos] = useState({
@@ -25,7 +26,14 @@ const GitHubRepos = () => {
 
   return (
     <div className='container mb-3'>
-      <div className='card text-center mt-3 bg-success text-white'>
+      <img class="d-block w-100" src={project} alt="First slide"></img>
+      {/* <div className="centered1">
+        <div class="h2"> My Projects</div>
+        <div className="h5 line-height">
+          Here are all the projects I have on my Github account.
+          </div>
+      </div> */}
+      <div className='card text-center mt-3'>
         <div className='card-header'>
           <h5 className='card-title'>My Projects</h5>
           <h6 className='card-subtitle mb-2 '>
@@ -36,7 +44,7 @@ const GitHubRepos = () => {
           </h6>
         </div>
 
-        <div className='list-group list-group-flush shadow-lg p-3 bg-info rounded '>
+        <div className='list-group list-group-flush shadow-lg p-3  rounded '>
           {GitHubRepos.map((blog, index) => {
             return (
               <button
@@ -57,7 +65,7 @@ const GitHubRepos = () => {
                                 alt='menue item'
                               ></img>
                             </div> */}
-                            <div className='card-body bg-info text-white rounded'>
+                            <div className='card-body rounded'>
                               <h5 className='card-title'>{blog.name}</h5>
                               <p className='card-text'>{blog.description}</p>
                             </div>
