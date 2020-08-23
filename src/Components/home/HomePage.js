@@ -96,10 +96,10 @@ const Cards = [
 export class HomePage extends Component {
   render() {
     return (
-      <div className='container'>
+      <div className='container shadow-lg mt-3 p-3 mb-5 rounded'>
 
         <img class="d-block w-100" src={homepage2} alt="First slide"></img>
-        <div className="centered text-center">
+        <div className="centered text-center ">
           <div class="h2">Ethan Ferrier</div>
           <div className="h4 line-height">
             Welcome to my portfolio website. I am so glad you have taken the time and

@@ -7,8 +7,8 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <div className="container">
-        <nav className='navbar navbar-expand-lg shadow-lg  navbar-dark rounded '>
+      <nav className='navbar navbar-expand-lg shadow-lg  navbar-dark rounded '>
+        <div className="container">
           {/* <img src={Ethan} width="50px" className="rounded"></img> */}
           <div className="h5 ml-3">Ethan Ferrier</div>
           <div className='d-flex flex-grow-1 justify-content-end'>
@@ -26,39 +26,41 @@ class Header extends Component {
           </div>
 
           <div
-            className='collapse navbar-collapse flex-grow-1 justify-content-end text-right'
+            className='collapse  navbar-collapse flex-grow-1 justify-content-end text-right'
             id='navbarSupportedContent'
           >
-            <ul className='navbar-nav font'>
-              <li className='nav-item '>
-                <Link className='nav-link text-reset' to='/'>
-                  HOME
+            <div className="nav-fill col-8">
+              <ul className='navbar-nav font'>
+                <li className='nav-item '>
+                  <Link className='nav-link text-reset' to='/'>
+                    HOME
               </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link text-reset' to='/About'>
-                  ABOUT
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link text-reset' to='/About'>
+                    ABOUT
               </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/GitHubRepos'>
-                  PROJECTS
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link text-reset ' to='/GitHubRepos'>
+                    PROJECTS
               </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/ContactForm'>
-                  CONTACT
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link text-reset ' to='/ContactForm'>
+                    CONTACT
               </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/Resume'>
-                  RÉSUMÉ
+                </li>
+                <li className='nav-item'>
+                  <Link className='nav-link text-reset ' to='/Resume'>
+                    RÉSUMÉ
               </Link>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     );
   }
 }

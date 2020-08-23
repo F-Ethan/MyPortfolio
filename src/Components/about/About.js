@@ -10,9 +10,9 @@ import './About.css'
 
 const About = () => {
   return (
-    <div className='About container shadow-lg mt-3 p-3 mb-5 rounded'>
+    <div className='container shadow-lg mt-3 p-3 mb-5 rounded'>
       <img class="d-block w-100" src={about2} alt="First slide"></img>
-      <div className="centered1">
+      <div className="centered text-center">
         <div class="h2"> My Start in the world of Tech</div>
         <div className="h5 line-height">
           When I was in high school I saw a promotional video with Mark Zuckerberg and a few other big names in the tech world.
@@ -32,7 +32,7 @@ const About = () => {
             <div className='row mb-3 justify-content-center'>
               <div className="col-12 col-md-6 mt-3">
                 <div className="card" >
-                  <div className="card-header bg-success">
+                  <div className="card-header">
                     Python
                 </div>
                   <ul className="list-group list-group-flush">
@@ -44,7 +44,7 @@ const About = () => {
               </div>
               <div className="col-12 col-md-6 mt-3">
                 <div className="card" >
-                  <div className="card-header bg-success">
+                  <div className="card-header">
                     Backend JavaScript
                 </div>
                   <ul className="list-group list-group-flush">
@@ -56,7 +56,7 @@ const About = () => {
 
               <div className="col-12 col-md-6 mt-3">
                 <div className="card " >
-                  <div className="card-header bg-success">
+                  <div className="card-header">
                     Frontend JavaScript
                 </div>
                   <ul className="list-group list-group-flush">
@@ -68,7 +68,7 @@ const About = () => {
               </div>
               <div className="col-12 col-md-6 mt-3">
                 <div className="card " >
-                  <div className="card-header bg-success">
+                  <div className="card-header">
                     DataBase
                 </div>
                   <ul className="list-group list-group-flush">
@@ -80,7 +80,7 @@ const About = () => {
               </div>
               <div className="col-12 col-md-6 mt-3">
                 <div className="card " >
-                  <div className="card-header bg-success">
+                  <div className="card-header">
                     Other
                 </div>
                   <ul className="list-group list-group-flush">
