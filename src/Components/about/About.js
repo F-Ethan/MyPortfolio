@@ -10,7 +10,7 @@ const About = () => {
   document.documentElement.scrollTop = 0;
   return (
     <div className='About container shadow-lg mt-3 p-3 mb-5 rounded'>
-      <div>
+      <div className="pitcture">
         <img class="d-block w-100" src={about2} alt="First slide"></img>
         <div className="d-none col-9 d-lg-block centered bg-clear p-3">
           <div class="h2"> My Start in the world of Tech</div>

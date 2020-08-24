@@ -29,13 +29,9 @@ const GitHubRepos = () => {
 
   return (
     <div className='About container shadow-lg mt-3 p-3 mb-5 rounded'>
-      <img class="d-block w-100" src={project} alt="First slide"></img>
-      {/* <div className="centered1">
-        <div class="h2"> My Projects</div>
-        <div className="h5 line-height">
-          Here are all the projects I have on my Github account.
-          </div>
-      </div> */}
+      <div className="pitcture">
+        <img class="d-block w-100" src={project} alt="First slide"></img>
+      </div>
       <div className='card text-center mt-3'>
         <div className='card-header'>
           <h5 className='card-title'>My Projects</h5>
@@ -88,7 +84,7 @@ const GitHubRepos = () => {
           })}
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
