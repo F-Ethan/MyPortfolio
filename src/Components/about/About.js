@@ -3,18 +3,30 @@ import Ethan1 from '../../pictures/Ethan1.jpg';
 import Ethan from '../../pictures/Ethan.png';
 import Ethan2 from '../../pictures/Ethan2.jpg';
 import Ethan3 from '../../pictures/Ethan3.jpg';
-import road from '../../pictures/road.jpg'
-import about1 from '../../pictures/about1.jpg'
 import about2 from '../../pictures/about2.jpg'
-import './About.css'
 
 const About = () => {
   return (
     <div className='About container shadow-lg mt-3 p-3 mb-5 rounded'>
-      <img class="d-block w-100" src={about2} alt="First slide"></img>
-      <div className="centered1">
-        <div class="h2"> My Start in the world of Tech</div>
-        <div className="h5 line-height">
+      <div>
+        <img class="d-block w-100" src={about2} alt="First slide"></img>
+        <div className="d-none col-9 d-lg-block centered bg-clear p-3">
+          <div class="h2"> My Start in the world of Tech</div>
+          <div className="h5 line-height">
+            When I was in high school I saw a promotional video with Mark Zuckerberg and a few other big names in the tech world.
+            The video talked about how there were not enough software engineers in the world. ot went on to say that in the future
+            programmers would seem to have super powers but there was a lack of talented people going into the field. So to help
+            they had started a free online application to help people learn how to coe. It was CodeAcadamy.com. After watching
+            that video I spent the next six months spending any free time I could working on my JavaScript and PHP. After that I
+            learned anytime I could find the time. However I always felt like I was just playing around with some code.
+            It seemed impossible that someday I would make a career out of this. But when I got a chance to go to Bethel Tech I
+            jumped at the opportunity. Now I am designing and building full scale web applications from the ground up.
+          </div>
+        </div>
+      </div>
+      <div className='d-lg-none card text-center m-3 shadow p-3 mb-5 rounded '>
+        <div className="card-header h3 mb-2">My Start in the world of Tech</div>
+        <div className="h4 line-height">
           When I was in high school I saw a promotional video with Mark Zuckerberg and a few other big names in the tech world.
           The video talked about how there were not enough software engineers in the world. ot went on to say that in the future
           programmers would seem to have super powers but there was a lack of talented people going into the field. So to help
@@ -25,6 +37,7 @@ const About = () => {
           jumped at the opportunity. Now I am designing and building full scale web applications from the ground up.
           </div>
       </div>
+
       <div className='card justify-content-center mt-3'>
         <div className='card'>
           <div className='container text-center '>
