@@ -7,6 +7,9 @@ const GitHubRepos = () => {
     GitHubRepos: [],
   });
 
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+
   const { GitHubRepos } = GitHubReposData;
 
   const fetchGitHubRepos = () => {

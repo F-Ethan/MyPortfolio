@@ -95,6 +95,8 @@ const Cards = [
 
 export class HomePage extends Component {
   render() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return (
       <div className='container shadow-lg mt-3 p-3 mb-5 rounded'>
 

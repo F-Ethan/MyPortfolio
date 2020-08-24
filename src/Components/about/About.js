@@ -6,6 +6,8 @@ import Ethan3 from '../../pictures/Ethan3.jpg';
 import about2 from '../../pictures/about2.jpg'
 
 const About = () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
   return (
     <div className='About container shadow-lg mt-3 p-3 mb-5 rounded'>
       <div>

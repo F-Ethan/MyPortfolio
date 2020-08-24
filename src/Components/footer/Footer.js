@@ -74,7 +74,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to='/BlogList' className='text-reset '>
+                <Link to='/GitHubRepos' className='text-reset '>
                   My Projects
                 </Link>
               </li>
