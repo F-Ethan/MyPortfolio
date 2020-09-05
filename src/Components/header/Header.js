@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Ethan from '../../pictures/Ethan.png';
-import './Header.css';
 
 
 class Header extends Component {
@@ -41,19 +39,26 @@ class Header extends Component {
               </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/GitHubRepos'>
-                  PROJECTS
-              </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/ContactForm'>
+                <Link className='nav-link text-reset' to='/ContactForm'>
                   CONTACT
               </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/Resume'>
+                <Link className='nav-link text-reset' to='/Resume'>
                   RÉSUMÉ
               </Link>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-reset dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PROJECTS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link class="dropdown-item" to="/Projects/ThatFoodTruck">That Food Truck</Link>
+                  <Link class="dropdown-item" to="/Projects/WebTracker">Web Tracker</Link>
+                  <div class="dropdown-divider"></div>
+                  <Link class="dropdown-item" to="/GitHubRepos">GitHub Repositories</Link>
+                  <Link class="dropdown-item" to="/Projects/MyPortfolio">My Portfolio</Link>
+                </div>
               </li>
             </ul>
           </div>
