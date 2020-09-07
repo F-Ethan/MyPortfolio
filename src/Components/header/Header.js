@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Ethan from '../../pictures/Ethan.png';
-import './Header.css';
 
 
 class Header extends Component {
@@ -41,19 +39,28 @@ class Header extends Component {
               </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/GitHubRepos'>
-                  PROJECTS
-              </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/ContactForm'>
+                <Link className='nav-link text-reset' to='/ContactForm'>
                   CONTACT
               </Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link text-reset ' to='/Resume'>
+                <Link className='nav-link text-reset' to='/Resume'>
                   RÉSUMÉ
               </Link>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-reset dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  PROJECTS
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-item-text bg-secondary">Active Websites</div>
+                  <a class="dropdown-item" target='_blank' href="https://veam.ethanferrier.com">That Food Truck</a>
+                  <a class="dropdown-item" target='_blank' href="https://pursuit.pythonanywhere.com">Web Tracker</a>
+                  <a class="dropdown-item disabled" target='_blank' href="https://www.ethanferrier.com">My Portfolio</a>
+                  <div class="dropdown-item-text bg-secondary">GitHub</div>
+                  <Link class="dropdown-item" to="/GitHubRepos">List of Repositories</Link>
+                  <a class="dropdown-item" target='_blank' href="https://www.github.com/f-ethan">My GitHub</a>
+                </div>
               </li>
             </ul>
           </div>
