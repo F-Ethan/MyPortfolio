@@ -53,11 +53,13 @@ class Header extends Component {
                   PROJECTS
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <Link class="dropdown-item" to="/Projects/ThatFoodTruck">That Food Truck</Link>
-                  <Link class="dropdown-item" to="/Projects/WebTracker">Web Tracker</Link>
-                  <div class="dropdown-divider"></div>
-                  <Link class="dropdown-item" to="/GitHubRepos">GitHub Repositories</Link>
-                  <Link class="dropdown-item" to="/Projects/MyPortfolio">My Portfolio</Link>
+                  <div class="dropdown-item-text bg-secondary">Active Websites</div>
+                  <a class="dropdown-item" target='_blank' href="https://veam.ethanferrier.com">That Food Truck</a>
+                  <a class="dropdown-item" target='_blank' href="https://pursuit.pythonanywhere.com">Web Tracker</a>
+                  <a class="dropdown-item disabled" target='_blank' href="https://www.ethanferrier.com">My Portfolio</a>
+                  <div class="dropdown-item-text bg-secondary">GitHub</div>
+                  <Link class="dropdown-item" to="/GitHubRepos">List of Repositories</Link>
+                  <a class="dropdown-item" target='_blank' href="https://www.github.com/f-ethan">My GitHub</a>
                 </div>
               </li>
             </ul>
