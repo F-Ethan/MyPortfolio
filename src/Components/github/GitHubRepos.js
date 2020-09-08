@@ -67,6 +67,7 @@ const GitHubRepos = () => {
                             <div className='card-body rounded'>
                               <h5 className='card-title'>{blog.name}</h5>
                               <p className='card-text'>{blog.description}</p>
+                              <p className='card-text'>{blog.language}</p>
                             </div>
                           </div>
                           <a
