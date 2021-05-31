@@ -57,6 +57,7 @@ class Header extends Component {
                   <a class="dropdown-item" target='_blank' href="https://veam.ethanferrier.com">That Food Truck</a>
                   <a class="dropdown-item" target='_blank' href="https://buildmore.ethanferrier.com">Lets Build More</a>
                   <a class="dropdown-item" target='_blank' href="https://pursuit.pythonanywhere.com">Web Tracker</a>
+                  <a class="dropdown-item" target='_blank' href="https://fervent-clarke-6d9f91.netlify.app">CSS Calculator</a>
                   <a class="dropdown-item disabled" target='_blank' href="https://www.ethanferrier.com">My Portfolio</a>
                   <div class="dropdown-item-text bg-secondary">GitHub</div>
                   <Link class="dropdown-item" to="/GitHubRepos">List of Repositories</Link>
