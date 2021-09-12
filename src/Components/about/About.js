@@ -4,15 +4,16 @@ import Ethan from '../../pictures/Ethan.png';
 import Ethan2 from '../../pictures/Ethan2.jpg';
 import Ethan3 from '../../pictures/Ethan3.jpg';
 import about2 from '../../pictures/about2.jpg'
+import "./About.css";
 
 const About = () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
   return (
     <div className='About container shadow-lg mt-3 p-3 mb-5 rounded'>
-      <div className="pitcture">
+      <div className="pitcture position-relative">
         <img class="d-block w-100" src={about2} alt="First slide"></img>
-        <div className="d-none col-9 d-lg-block centered bg-clear p-3">
+        <div className="d-none col-9 d-lg-block myalign bg-clear p-3">
           <div class="h2"> My Start in the world of Tech</div>
           <div className="h5 line-height">
             When I was in high school I saw a promotional video with Mark Zuckerberg and a few other big names in the tech world.

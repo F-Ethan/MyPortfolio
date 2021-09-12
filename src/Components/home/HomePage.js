@@ -97,21 +97,21 @@ export class HomePage extends Component {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
     return (
-      <div className='container shadow-lg mt-3 p-3 mb-5 rounded'>
-        <div className="pitcture">
+      <div className='container shadow-lg mt-3 p-3 mb-5 rounded p-3'>
+        <div className="pitcure p-3 position-relative">
           <img className="d-block w-100 " src={homepage2} alt="First slide"></img>
 
           {/* <div className='card text-center m-3 shadow p-3 mb-5 rounded'></div> */}
-          <div className="d-none d-lg-block centered text-center">
+          <div className="d-none d-lg-block myalign text-center p-3">
             <div className="h2">Ethan Ferrier</div>
             <div className="h4 line-height">
               Welcome to my portfolio website. I am so glad you have taken the time and
               intrest to come here and learn more about me.
-          </div>
+            </div>
           </div>
         </div>
 
-        <div className='d-lg-none card text-center m-3 shadow p-3 mb-5 rounded '>
+        <div className='d-lg-none card text-center align-middle m-3 shadow rounded d-flex align-self-center h-100'>
           <div className="card-header h3 mb-2">Ethan Ferrier</div>
           <div className="h4 line-height">
             Welcome to my portfolio website. I am so glad you have taken the time and
