@@ -102,7 +102,7 @@ export class HomePage extends Component {
           <img className="d-block w-100 " src={homepage2} alt="First slide"></img>
 
           {/* <div className='card text-center m-3 shadow p-3 mb-5 rounded'></div> */}
-          <div className="d-none d-lg-block myalign text-center p-3">
+          <div className="d-none d-lg-block myalign1 text-center p-3">
             <div className="h2">Ethan Ferrier</div>
             <div className="h4 line-height">
               Welcome to my portfolio website. I am so glad you have taken the time and
